@@ -10,3 +10,6 @@
 
 .timetable-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:18px}.timetable{width:100%;border-collapse:collapse;text-align:left;font-size:14px}.timetable caption{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.timetable th,.timetable td{padding:19px 22px;border-bottom:1px solid var(--line)}.timetable thead{background:var(--soft);color:var(--ink)}.timetable tbody tr:last-child>*{border-bottom:0}.timetable td:nth-child(2),.timetable td:last-child,.timetable tbody th{white-space:nowrap}.timetable tbody th{font-weight:600;color:var(--blue)}
 @media(max-width:767px){.timetable{font-size:12px;min-width:520px}.timetable th,.timetable td{padding:14px 12px}}
+
+/* Match the Assetplus guide's existing cards, typography and brand colors. */
+:root{--ink:#0b293d;--muted:#536574;--blue:#0097f6;--line:#d9e3e9;--soft:#f0f6fa}.prep-number{background:#0bcc58;color:#fff}.claude-download{background:var(--ink);color:white}.hero .eyebrow{background:#ffda2b;color:var(--ink)}nav{justify-content:center}#schedule{margin-bottom:28px}#schedule>h3{margin-bottom:18px}@media(max-width:767px){nav{justify-content:flex-start}}
