@@ -19,7 +19,10 @@
 #resources .resource-label{grid-row:1}
 #resources .resource-card h3{grid-row:2;margin:0}
 #resources .resource-card>p:not(.resource-password){grid-row:3;margin:0}
-#resources .resource-card>.button{grid-row:4;display:inline-flex;align-items:center;justify-content:center;justify-self:start;max-width:100%;min-height:44px;margin:8px 0 0;padding:11px 22px;font-size:13px;line-height:1.5;font-weight:650;text-align:center}
+#resources .resource-card>.button,#resources .account-actions>.button{grid-row:4;display:inline-flex;align-items:center;justify-content:center;justify-self:start;max-width:100%;min-height:44px;margin:8px 0 0;padding:11px 22px;font-size:13px;line-height:1.5;font-weight:650;text-align:center}
 #resources .resource-password{grid-row:5;margin:0;font-size:13px;line-height:24px}
 /* Class Wi-Fi and page link. */
 .class-access{max-width:680px;margin:26px auto 0;padding:20px 24px;border:1px solid var(--line);border-radius:18px;background:var(--soft);font-size:16px}.wifi-info{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:8px 24px}.wifi-info span{overflow-wrap:anywhere}.class-access p{margin:12px 0 0;color:var(--ink)}.class-access a{font-weight:600;text-underline-offset:3px;overflow-wrap:anywhere}@media(max-width:767px){.class-access{padding:18px 16px}.wifi-info{flex-direction:column;gap:6px}}
+
+/* Keep account and verification mailbox actions together. */
+#resources .account-actions{grid-row:4;display:flex;flex-wrap:wrap;align-items:stretch;gap:10px;min-width:0}#resources .account-actions>.button{margin-top:8px;padding-inline:18px}#resources .mailbox-button{background:#fff;color:var(--ink);border:1px solid var(--ink)}#resources .mailbox-button:hover{background:var(--ink);color:#fff}
